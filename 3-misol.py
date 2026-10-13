@@ -22,4 +22,4 @@ if sozlar:
 	qatnashish_soni = sum(soz.casefold() == qidiriladigan_soz for soz in sozlar)
 	print("Qidirilgan so'z qatnashgan soni:", qatnashish_soni)
 else:
-	print("Matnda so'z topilmadi.")
+	print("Matnda so'z topilmad.")
